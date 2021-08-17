@@ -1,9 +1,10 @@
-const input = document.getElementById('nav-button');
+const navButton = document.getElementById('navMenu');
 
-function addingEventListener() {
-input.addEventListener('mouseover', function() {
-    alert('I was clicked');
-})
-};
+navButton.addEventListener('mouseover', function() {
+    navButton.innerHTML = "<h2>'Now I include this data'</h2>";
+});
 
-addingEventListener();
+navButton.addEventListener('mouseout', function() {
+    navButton.innerHTML = "Navigation";
+});
+
