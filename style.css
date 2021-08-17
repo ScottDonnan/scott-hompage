@@ -10,34 +10,38 @@ h1 {
 
 /* Navigation -------------- */
 
-nav a {
+#navMenu a {
     color: white;
     background: grey;
     font-size: 24px;
-    margin: 0 20px 0 20px;
     padding: 5px;
-
 }
 
 #navMenu {
-    padding: 5px;
-    margin-right: 90%; /* needs work adjusting size */
+    padding: 20px;
+    margin-right: 80%; /* needs work adjusting size */
     text-align: center;
     background: pink; 
     position: fixed;
     left: 5px;
     right: 5px;
+    border-radius: 50px;
 }
 
-
-
+/*
 .family {
     background: blue;
     color: white;
     margin: 0 25% 0 25%;
+    padding: 25px 0 25px 0;
+    border-radius: 50px;
 }
-
+*/
+.family {
+    color: white;
+}
 #family-picture {
-    width: 75%;
+    width: 50%;
     length: auto;
+    border-radius: 100px;
 }
