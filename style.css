@@ -16,22 +16,14 @@ body {
 
 /* Navigation -------------- */
 .nav {
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.nav li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 1%;
+    list-style-type: none; 
 }
 
 .nav a {
     color: white;
     background-color: black;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
     text-decoration: none;
     border-radius: 25px;
 }
@@ -39,15 +31,14 @@ body {
 .nav a:hover {
     color: black;
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 25px;
 }
 
-.nav h1 {
+h1 {
     font-size: 60px;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-bottom: 100px;
 }
 
 #navMenu {
@@ -79,8 +70,9 @@ body {
     border-radius: 50px;
 }
 */
-.family {
+#family {
     color: white;
+    margin-top: 100px;
 }
 #family-picture {
     width: 50%;
