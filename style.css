@@ -1,20 +1,53 @@
 body {
-    background-image: url("media/mountains-190055.jpg");
+    background-color: blue;
     text-align: center;
+    color: white;
 }
 
-h1 {
-    color: white;
-    font-size: 60px;
+#topborder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: green;
+    height: 30px;
+
 }
 
 /* Navigation -------------- */
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-#navMenu a {
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.nav a {
     color: white;
-    background: grey;
-    font-size: 24px;
-    padding: 5px;
+    background-color: black;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.nav h1 {
+    font-size: 60px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #navMenu {
@@ -25,11 +58,20 @@ h1 {
     position: fixed;
     left: 5px;
     right: 5px;
+    bottom: 5px;
     border-radius: 50px;
 }
 
-/*
-.family {
+#navMenu a {
+    color: white;
+    background: grey;
+    font-size: 24px;
+    padding: 5px;
+}
+
+/* Family Section-------------------------*/
+
+/*.family {
     background: blue;
     color: white;
     margin: 0 25% 0 25%;
