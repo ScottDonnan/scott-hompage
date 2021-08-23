@@ -1,11 +1,5 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-    color: white;
-}
 
+/* -- Border content --
 #topborder {
     position: absolute;
     top: 0;
@@ -15,7 +9,6 @@ body {
     height: 4%;
 }
 
-/* other borders (needs work to not cutt-off content-----
 #rightborder {
     position: absolute;
     top: 0;
@@ -44,10 +37,17 @@ body {
 }
 */
 
-
 /* Navigation -------------- */
+header {
+    background-color: bisque;
+    border: 3px solid black;
+}
+
 .nav {
     list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav a {
@@ -68,18 +68,17 @@ body {
 
 h1 {
     font-size: 60px;
-    color: white;
-    margin-bottom: 100px;
-    text-align: center;
+    color: black;
 }
 
 h2 {
     margin-top: 50px;
 }
 
+/* 
 #navMenu {
     padding: 20px;
-    margin-right: 80%; /* needs work adjusting size */
+    margin-right: 80%;
     text-align: center;
     background: pink; 
     position: fixed;
@@ -95,8 +94,16 @@ h2 {
     font-size: 24px;
     padding: 5px;
 }
-
+*/
 /* Main body section -----------*/
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
 
 #home {
     display: flex;
@@ -145,6 +152,39 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+
+#contact h2 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+#contact h3 {
+    font-size: 30px;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+.contactList1 {
+    font-size: 50px;
+}
+
+.contactList2 {
+    display: flex;
+    font-size: 30px;
+    color: black;
+}
+
+.contactList2 li {
+    margin: 30px;
+}
+
+.contactList2 a {
+    text-decoration: none;
+    color: black;
+}
+
 #home {
     display: flex;
     flex-direction: column;
